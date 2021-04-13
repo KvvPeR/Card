@@ -1,0 +1,150 @@
+body{ 
+    background-color: rgb(82, 182, 240); 
+    color: grey; 
+} 
+.datacard{ 
+    width: 550px; 
+    height: 650px; 
+    margin-left: 47%; 
+    background: white; 
+    margin-top: 11%; 
+} 
+.h3cardnumber{ 
+    margin-top: 220px; 
+    font-size: 25px; 
+    position: absolute; 
+    margin-left: 180px; 
+} 
+#number{ 
+    height: 50px; 
+    width: 450px; 
+    margin-top: 250px; 
+    margin-left: 47px; 
+    font-size: 25px; 
+    border: 2px solid black;
+    border-radius: 20px; 
+} 
+.h3cardname{ 
+    font-size: 25px; 
+    margin-top: 20px; 
+    position: absolute; 
+    margin-left: 225px; 
+} 
+#name{ 
+    height: 50px; 
+    width: 450px; 
+    margin-top: 50px; 
+    margin-left: 47px; 
+    font-size: 25px; 
+    border: 2px solid black;
+    border-radius: 20px; 
+} 
+#date{ 
+    margin-top: 100px; 
+    margin-left: 47px; 
+    width: 115px; 
+    height: 65px; 
+    font-size: 20px; 
+} 
+.h3expdate{ 
+    margin-top: 65px; 
+    margin-left: 60px; 
+    font-size: 22px; 
+    position: absolute; 
+} 
+#year{ 
+    position: absolute; 
+    margin-top: -65px; 
+    margin-left: 225px; 
+    width: 115px; 
+    height: 65px; 
+    font-size: 20px;  
+} 
+.h3cvv{ 
+    margin-top: -100px; 
+    margin-left: 425px; 
+    font-size: 22px; 
+    position: absolute; 
+} 
+#inputcvv{ 
+    position: absolute; 
+    margin-top: -65px; 
+    margin-left: 400px; 
+    width: 115px; 
+    height: 60px; 
+    font-size: 50px; 
+} 
+.card{ 
+    background: url(mastercard.jpg); 
+    width: 525px; 
+    height: 250px; 
+    margin-left: 908px; 
+    position: absolute; 
+    margin-top: -65px; 
+    border-radius: 17px; 
+    box-shadow: 0 10px 15px black; 
+} 
+#card_number{ 
+    font-size: 25px; 
+    text-align: center; 
+    margin-top: 9px; 
+    position: absolute; 
+    color: white; 
+} 
+.div_card_number{ 
+    background: rgba(0, 0, 0, 0); 
+    border-radius: 8px; 
+    width: 375px; 
+    height: 50px; 
+     
+    margin-top: 100px; 
+    margin-left: 25px; 
+    border: 2.5px solid white; 
+    position: absolute; 
+} 
+#type{ 
+    color: white; 
+    font-size: 35px; 
+    margin-top: 20px; 
+    margin-left: 305px; 
+    position: absolute; 
+} 
+#chip{ 
+    margin-top: 16px; 
+    margin-left: 20px; 
+} 
+#expiredate{ 
+    color: grey; 
+    font-size: 20px; 
+    margin-left: 390px; 
+    margin-top: 105px; 
+    position: absolute; 
+} 
+#holder{ 
+    color: grey; 
+    font-size: 20px; 
+    margin-top: 105px; 
+    margin-left: 35px; 
+    position: absolute; 
+} 
+#card_month{ 
+    color: white; 
+    font-size: 20px; 
+    position: absolute; 
+    margin-top: 135px; 
+    margin-left: 400px; 
+} 
+#card_year{ 
+    color: white; 
+    font-size: 20px; 
+    position: absolute; 
+    margin-top: 135px; 
+    margin-left: 444px; 
+} 
+#card_name{ 
+    font-size: 25px; 
+    margin-top: 210px; 
+    position: absolute; 
+    margin-left: -50px; 
+    color: white; 
+}

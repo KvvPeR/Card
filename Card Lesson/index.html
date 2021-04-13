@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Card</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+        <div id="card" class="card"> 
+            <p id="type">DISCOVER</p> 
+                <div class="div_card_number"> 
+                    <span id="card_number"></span> 
+                </div> 
+                <img id="chip" src="Chip3.png" width="70px" height="60px" alt=""> 
+                <p id="holder">Card holder</p> 
+                <span id="card_name"></span> 
+                <p id="expiredate">Expire date</p> 
+                <p id="card_month">04 /</p> 
+                <p id="card_year">2021</p> 
+        </div> 
+        <div id="datacard" class="datacard"> 
+            <h3 class="h3cardnumber">Card number</h3> 
+            <input id="number" type="text" value="Set a card number"> 
+            <h3 class="h3cardname">Name</h3> 
+            <input id="name" type="text" value="Set your name"> 
+            <h3 class="h3expdate">Exp date</h3> 
+            <form action=""> 
+                <select name="" id="date"> 
+                    <option value="01 /">January</option> 
+                    <option value="12 /">December</option> 
+                    <option value="11 /">November</option> 
+                    <option value="10 /">October</option> 
+                    <option value="09 /">September</option> 
+                    <option value="08 /">August</option> 
+                    <option value="07 /">July</option> 
+                    <option value="06 /">June</option> 
+                    <option value="05 /">May</option> 
+                    <option value="04 /">April</option> 
+                    <option value="03 /">March</option> 
+                    <option value="02 /">February</option> 
+                </select> 
+            </form> 
+            <form action=""> 
+                <select name="" id="year"> 
+                    <option value="2021">2021</option> 
+                    <option value="2022">2022</option> 
+                    <option value="2023">2023</option> 
+                    <option value="2024">2024</option> 
+                    <option value="2025">2025</option> 
+                </select> 
+            </form> 
+            <h3 class="h3cvv">CVV</h3> 
+            <input id="inputcvv" type="password" maxlength="3"> 
+        </div> 
+    <script src="js.js"></script> 
+</body> 
+</html>
